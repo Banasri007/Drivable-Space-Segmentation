@@ -204,20 +204,14 @@ CFG = {
 
 ---
 
-## 📁 Output Files
+## Sample Images and Evaluation
 
-| File | Description |
 <img width="1990" height="396" alt="0c67039b-11cb-4de2-aced-8aed8f8e5361" src="https://github.com/user-attachments/assets/07383f75-2da7-451e-9a5a-69e2e690816a" />
+                                      Training Curves
 <img width="1159" height="495" alt="309545a3-3860-473c-8657-764e36bbdc2c" src="https://github.com/user-attachments/assets/92f7f8d1-9be9-45c2-a6a2-9471bdfd1bc9" />
+                                      Confusion Matrices
 <img width="1990" height="2341" alt="841b5d65-9020-4114-947b-582b70372bb1" src="https://github.com/user-attachments/assets/76842dca-661c-4930-abb6-702c0600ae9a" />
+                                      Sample Images with LIDAR - generated masks
 <img width="1789" height="985" alt="005d4d0e-d32c-4697-a631-213d1e88f97d" src="https://github.com/user-attachments/assets/b828bc62-abf1-4703-91ba-1c6d090d86bf" /> | `05_performance_dashboard.png` | Full metrics dashboard |
 
-
-|---|---|
-| `01_data_samples.png` | Sample images with LiDAR-generated masks |
-| `02_training_curves.png` | Loss and mIoU curves over epochs |
-| `03_confusion_matrix.png` | Pixel-level confusion matrix on test set |
-| `04_qualitative_results.png` | Predicted masks vs ground truth |
-
-| `best_model.pth` | Best checkpoint (by val mIoU) |
 
