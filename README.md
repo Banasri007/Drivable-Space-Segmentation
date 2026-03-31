@@ -206,7 +206,8 @@ CFG = {
 
 ## 📁 Output Files
 
-| File | Description |
+| File | Description |<img width="1789" height="985" alt="005d4d0e-d32c-4697-a631-213d1e88f97d" src="https://github.com/user-attachments/assets/b828bc62-abf1-4703-91ba-1c6d090d86bf" />
+
 |---|---|
 | `01_data_samples.png` | Sample images with LiDAR-generated masks |
 | `02_training_curves.png` | Loss and mIoU curves over epochs |
