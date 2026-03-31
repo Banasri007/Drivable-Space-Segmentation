@@ -150,17 +150,6 @@ Loss = 0.5 × BCE + 0.5 × Dice
 | Recall | 0.9335 |
 | Pixel Accuracy | **95.72%** |
 
-### Inference Speed
-| Mode | FPS | Status |
-|---|---|---|
-| FP32 (CPU) | 19.7 FPS | ⚠️ Below 30 FPS on CPU |
-| FP32 (GPU) | GPU deployment recommended for real-time |
-
-> The model is architecturally real-time capable (~1M params). 
-> GPU inference is expected to comfortably exceed 30 FPS.
-
----
-
 ## 🛠️ Setup & Installation
 ```bash
 # Clone the repository
@@ -225,9 +214,4 @@ CFG = {
 | `04_qualitative_results.png` | Predicted masks vs ground truth |
 | `05_performance_dashboard.png` | Full metrics dashboard |
 | `best_model.pth` | Best checkpoint (by val mIoU) |
-| `results.json` | All metrics and config saved as JSON |
 
-
-We confirm that all work in this repository is original and developed entirely by 
-our team. No pre-trained model weights were used at any stage. All team members 
-agree to the rules and evaluation process of the challenge.
